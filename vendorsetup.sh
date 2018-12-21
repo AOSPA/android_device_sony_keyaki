@@ -18,3 +18,8 @@ add_lunch_combo aosp_g8231-eng
 add_lunch_combo aosp_g8231-userdebug
 add_lunch_combo aosp_g8232-eng
 add_lunch_combo aosp_g8232-userdebug
+
+# SDClang Environment Variables
+export SDCLANG_AE_CONFIG=device/sony/common/sdclang/sdclangAE.json
+export SDCLANG_CONFIG=device/sony/common/sdclang/sdclang.json
+export SDCLANG_SA_ENABLED=true
